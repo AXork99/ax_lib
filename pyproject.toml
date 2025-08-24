@@ -1,0 +1,16 @@
+[project]
+name = "AX-lib"
+version = "0.1.0"
+description = "Various utils for my other projects (in active developement)"
+authors = [{ name = "AXork99", email = "vilpelj@gmail.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["numpy", "shapely", "networkx"]
+
+[tool.poetry]
+packages = [{ include = "ax_lib", from = "src" }]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,5 +1,4 @@
 from shapely import Polygon, MultiPolygon, unary_union, LineString, MultiLineString
-
 import numpy as np   
 
 from ..oop.observer import *

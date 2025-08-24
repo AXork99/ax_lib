@@ -1,6 +1,6 @@
 from collections import defaultdict
 from typing import Callable
-from ..std.utils import Proxy
+from ..std.extras import Proxy
 
 def listen(default = "__all__", *tags : str):
     def wrapper(f):
